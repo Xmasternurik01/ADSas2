@@ -1,16 +1,2 @@
 **Overview**
-This project aims to provide custom implementations of various data structures commonly used in programming. It includes implementations of array list, 
-linked lists, min heaps, queues, and stacks, along with supporting iterator classes for iteration through the data structures(LinkedList and ArrayList).
-
-**Classes and Interfaces**
-MyArrayList: Implements a dynamic array, providing methods for adding, removing, and accessing elements.
-MyLinkedList: Implements a linked list, offering methods for insertion, deletion, and traversal.
-MyMinHeap: Represents a min heap data structure, based on MyArrayList.
-MyQueue: Represents a queue data structure, based on MyLinkedList.
-MyStack: Represents a stack data structure, based on MyLinkedList.
-MyList: Interface defining common methods for both MyArrayList and MyLinkedList.
-**Iterator Classes**
-MyArrayListIterator: Provides an iterator for traversing elements in MyArrayList.
-MyLinkedListIterator: Provides an iterator for traversing elements in MyLinkedList.
-**Main Class**
-Main: Contains methods for testing the functionality of the implemented data structures and performing input-output operations.
+The objective of this project is to offer tailored versions of popular programming data structures. It includes implementations of array lists, linked lists, min heaps, queues, and stacks, complete with supporting iterator classes for easy traversal. The classes involved are MyArrayList for dynamic arrays, MyLinkedList for linked lists, MyMinHeap for min heap structures, MyQueue for queues, and MyStack for stacks. There's also a common interface, MyList, defining shared methods between MyArrayList and MyLinkedList. Additionally, iterator classes like MyArrayListIterator and MyLinkedListIterator facilitate traversal. The Main class serves as the entry point for testing functionality and handling input-output tasks.
